@@ -1,0 +1,1032 @@
+{
+  "FONDOS": "VIDEO",
+  "BASE": "INFORMATIVOS",
+  "BORIGEN": "INTERPLAY",
+  "RESERVADO": {
+    "tipo": "bool",
+    "valor": "false"
+  },
+  "TOPSECRET": {
+    "tipo": "bool",
+    "valor": "false"
+  },
+  "TITULOS": {
+    "TITULO": "ESPECIAL INFORMATIVO HABEMUS PAPAM: LEON XIV CR 20250508",
+    "SUMARIO": "ESPECIAL ELECCION PAPA LEON XIV (22:00H) PRESENTADO DESDE ROMA POR MARTA CARAZO Y ALEJANDRA HERRANZ Y DESDE MADRID XABIER FORTES,  MESA DE ANALISIS CON EXPERTOS Y REACCIONES EN DIRECTO."
+  },
+  "CONTENIDOS": {
+    "CONT": "Especial informativo con motivo de la segunda jornada del cónclave, en la que ha sido elegido el nuevo papa, el cardenal estadounidense Prevost, que toma el nombre de Papa León XIV."
+  },
+  "SERIE": {
+    "CGSERIE": {
+      "tipo": "bool",
+      "valor": "false"
+    },
+    "SERPRO": {
+      "id_termino": "100088119",
+      "id_tesauro": "198",
+      "tipo": "tesauro",
+      "valor": "ESPECIAL INFORMATIVO"
+    },
+    "SERPAR": {
+      "id_termino": "0",
+      "id_tesauro": "198",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "SERPROV": {
+      "id_termino": "0",
+      "id_tesauro": "198",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "ETAPA": {
+      "id_termino": "0",
+      "id_tesauro": "1001",
+      "tipo": "lexico",
+      "valor": null
+    },
+    "ORDEMI": {
+      "tipo": "bool",
+      "valor": "false"
+    }
+  },
+  "INFORMACION_CONTRACTUAL": {},
+  "OBSERVACIONES": {
+    "NOTAS": "EMISION SIMULTANEA EN LA 2 Y EL CANAL 24H (22:00 A 24:31H). REDIFUSION EN LA 1 EN LA FRANJA DE MADRUGADA (25:54 A 26:29H)",
+    "NOTASINT": "- Deducido CEMI"
+  },
+  "PRODUCCION": {
+    "TPROD": {
+      "id_termino": "1966",
+      "id_tesauro": "1002",
+      "tipo": "lexico",
+      "valor": "PRODUCCION PROPIA"
+    },
+    "DATPROD": {
+      "LUPROD": {
+        "id_termino": "50001758",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": "ESPAÑA"
+      },
+      "PROD": {
+        "id_termino": "30066705",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "TVE"
+      },
+      "FUPROD": {
+        "id_termino": "1475",
+        "id_tesauro": "1011",
+        "tipo": "lexico",
+        "valor": "PRODUCTORA"
+      }
+    },
+    "FEPROD": {
+      "tipo": "fecha",
+      "valor": "2025-05-08Z"
+    },
+    "ORIGEN": {
+      "id_termino": "1933",
+      "id_tesauro": "1003",
+      "tipo": "lexico",
+      "valor": "CONCEBIDO PARA TELEVISION"
+    },
+    "AUDIEN": {
+      "id_termino": "348",
+      "id_tesauro": "1004",
+      "tipo": "lexico",
+      "valor": "AUDIENCIA GENERAL"
+    },
+    "CPROD": "P2559307411"
+  },
+  "EMISION": {
+    "CADENA": {
+      "id_termino": "441",
+      "id_tesauro": "1016",
+      "tipo": "lexico",
+      "valor": "SEGUNDA CADENA"
+    },
+    "AMBITO": {
+      "id_termino": "333",
+      "id_tesauro": "1017",
+      "tipo": "lexico",
+      "valor": "ESTATAL"
+    },
+    "PERI": {
+      "id_termino": "0",
+      "id_tesauro": "1018",
+      "tipo": "lexico",
+      "valor": null
+    },
+    "DIA": {
+      "id_termino": "10062",
+      "id_tesauro": "1090",
+      "tipo": "lexico",
+      "valor": "JUEVES"
+    },
+    "HORA": {
+      "tipo": "hora",
+      "valor": "00:00:00.000"
+    },
+    "HORAINI": {
+      "tipo": "hora",
+      "valor": "01:43:33.000"
+    },
+    "HORAFIN": {
+      "tipo": "hora",
+      "valor": "04:12:51.000"
+    },
+    "TIPOEMI": {
+      "id_termino": "0",
+      "id_tesauro": "1019",
+      "tipo": "lexico",
+      "valor": null
+    },
+    "INICIO": {
+      "tipo": "fecha",
+      "valor": "0001-01-01Z"
+    },
+    "FINAL": {
+      "tipo": "fecha",
+      "valor": "0001-01-01Z"
+    },
+    "FEMI": {
+      "tipo": "fecha",
+      "valor": "2025-05-08Z"
+    },
+    "CEMI": "P599PDS00214411"
+  },
+  "DESCRIPCION_FISICA": {
+    "DURTOT": {
+      "tipo": "tiempo",
+      "valor": "00:00:00.000"
+    },
+    "DATDESFIS": [
+      {
+        "MEDIA": {
+          "id_termino": "1915",
+          "id_tesauro": "1021",
+          "tipo": "lexico",
+          "valor": "VIDEO"
+        },
+        "CLIPID": "INF_20250513_0131",
+        "IDASSET": "PRD.200001125254",
+        "ID_RTVE": "INF_20250513_0131",
+        "TC_IN": {
+          "tipo": "tiempo",
+          "valor": "00:00:00.000"
+        },
+        "TC_OUT": {
+          "tipo": "tiempo",
+          "valor": "02:31:41.640"
+        },
+        "TC": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "FORMATO": {
+          "id_termino": "817",
+          "id_tesauro": "1022",
+          "tipo": "lexico",
+          "valor": "MXF"
+        },
+        "MATERIAL": {
+          "id_termino": "1871",
+          "id_tesauro": "1023",
+          "tipo": "lexico",
+          "valor": "EMISION CR"
+        },
+        "NORMA": {
+          "id_termino": "1924",
+          "id_tesauro": "1024",
+          "tipo": "lexico",
+          "valor": "HDTV"
+        },
+        "CVIDEO": {
+          "id_termino": "10577",
+          "id_tesauro": "1025",
+          "tipo": "lexico",
+          "valor": "MPEG2 - 422P XDCAM HD"
+        },
+        "RVIDEO": "50 Mbps",
+        "ASPECTO": {
+          "id_termino": "15218",
+          "id_tesauro": "1026",
+          "tipo": "lexico",
+          "valor": "16/9"
+        },
+        "COLOR": {
+          "id_termino": "600",
+          "id_tesauro": "1027",
+          "tipo": "lexico",
+          "valor": "COLOR"
+        },
+        "AUDIOOK": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "GAUDIO": {
+          "id_termino": "0",
+          "id_tesauro": "1029",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "RAUDIO": "24",
+        "FRECU": "48000",
+        "VERSION": {
+          "CONTEXTO": {
+            "id_termino": "611",
+            "id_tesauro": "1037",
+            "tipo": "lexico",
+            "valor": "DIALOGOS ORIGINALES"
+          },
+          "LENGUA": {
+            "id_termino": "1800",
+            "id_tesauro": "1041",
+            "tipo": "lexico",
+            "valor": "ESPAÑOL"
+          }
+        },
+        "PESO": "677592302817902592",
+        "DURACION": {
+          "tipo": "tiempo",
+          "valor": "02:31:41.680"
+        },
+        "DOCU5": {
+          "id_termino": "14750",
+          "id_tesauro": "2000",
+          "tipo": "lexico",
+          "valor": "AVID"
+        },
+        "FEDIG": {
+          "tipo": "fecha",
+          "valor": "2025-05-13Z"
+        },
+        "FEDES": {
+          "tipo": "fecha",
+          "valor": "0001-01-01Z"
+        },
+        "SITDIG": {
+          "id_termino": "0",
+          "id_tesauro": "1036",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "UBICACION": {
+          "id_termino": "10569",
+          "id_tesauro": "1080",
+          "tipo": "lexico",
+          "valor": "MADRID INFORMATIVOS"
+        }
+      },
+      {
+        "MEDIA": {
+          "id_termino": "1915",
+          "id_tesauro": "1021",
+          "tipo": "lexico",
+          "valor": "VIDEO"
+        },
+        "CLIPID": "INF_20250513_0131",
+        "IDASSET": "PRD.200001125254",
+        "ID_RTVE": "INF_20250513_0131",
+        "TC_IN": {
+          "tipo": "tiempo",
+          "valor": "00:00:00.000"
+        },
+        "TC_OUT": {
+          "tipo": "tiempo",
+          "valor": "02:31:41.640"
+        },
+        "TC": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "FORMATO": {
+          "id_termino": "10980",
+          "id_tesauro": "1022",
+          "tipo": "lexico",
+          "valor": "QT"
+        },
+        "MATERIAL": {
+          "id_termino": "1871",
+          "id_tesauro": "1023",
+          "tipo": "lexico",
+          "valor": "EMISION CR"
+        },
+        "NORMA": {
+          "id_termino": "1926",
+          "id_tesauro": "1024",
+          "tipo": "lexico",
+          "valor": "PAL"
+        },
+        "CVIDEO": {
+          "id_termino": "10578",
+          "id_tesauro": "1025",
+          "tipo": "lexico",
+          "valor": "H264"
+        },
+        "RVIDEO": "1.5Mbps",
+        "ASPECTO": {
+          "id_termino": "15218",
+          "id_tesauro": "1026",
+          "tipo": "lexico",
+          "valor": "16/9"
+        },
+        "COLOR": {
+          "id_termino": "600",
+          "id_tesauro": "1027",
+          "tipo": "lexico",
+          "valor": "COLOR"
+        },
+        "AUDIOOK": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "GAUDIO": {
+          "id_termino": "0",
+          "id_tesauro": "1029",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "RAUDIO": "16",
+        "FRECU": "48000",
+        "VERSION": {
+          "CONTEXTO": {
+            "id_termino": "611",
+            "id_tesauro": "1037",
+            "tipo": "lexico",
+            "valor": "DIALOGOS ORIGINALES"
+          },
+          "LENGUA": {
+            "id_termino": "1800",
+            "id_tesauro": "1041",
+            "tipo": "lexico",
+            "valor": "ESPAÑOL"
+          }
+        },
+        "PESO": "1638400449",
+        "DURACION": {
+          "tipo": "tiempo",
+          "valor": "02:31:41.680"
+        },
+        "DOCU5": {
+          "id_termino": "0",
+          "id_tesauro": "2000",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "FEDIG": {
+          "tipo": "fecha",
+          "valor": "2025-05-13Z"
+        },
+        "FEDES": {
+          "tipo": "fecha",
+          "valor": "0001-01-01Z"
+        },
+        "SITDIG": {
+          "id_termino": "0",
+          "id_tesauro": "1036",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "UBICACION": {
+          "id_termino": "0",
+          "id_tesauro": "1080",
+          "tipo": "lexico",
+          "valor": null
+        }
+      },
+      {
+        "MEDIA": {
+          "id_termino": "1915",
+          "id_tesauro": "1021",
+          "tipo": "lexico",
+          "valor": "VIDEO"
+        },
+        "CLIPID": "INF_20250513_0131",
+        "IDASSET": "PRD.200001125254",
+        "ID_RTVE": "INF_20250513_0131",
+        "TC_IN": {
+          "tipo": "tiempo",
+          "valor": "00:00:00.000"
+        },
+        "TC_OUT": {
+          "tipo": "tiempo",
+          "valor": "00:00:00.000"
+        },
+        "TC": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "FORMATO": {
+          "id_termino": "0",
+          "id_tesauro": "1022",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "MATERIAL": {
+          "id_termino": "1871",
+          "id_tesauro": "1023",
+          "tipo": "lexico",
+          "valor": "EMISION CR"
+        },
+        "NORMA": {
+          "id_termino": "1924",
+          "id_tesauro": "1024",
+          "tipo": "lexico",
+          "valor": "HDTV"
+        },
+        "CVIDEO": {
+          "id_termino": "0",
+          "id_tesauro": "1025",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "ASPECTO": {
+          "id_termino": "15218",
+          "id_tesauro": "1026",
+          "tipo": "lexico",
+          "valor": "16/9"
+        },
+        "COLOR": {
+          "id_termino": "600",
+          "id_tesauro": "1027",
+          "tipo": "lexico",
+          "valor": "COLOR"
+        },
+        "AUDIOOK": {
+          "tipo": "bool",
+          "valor": "false"
+        },
+        "GAUDIO": {
+          "id_termino": "0",
+          "id_tesauro": "1029",
+          "tipo": "lexico",
+          "valor": null
+        },
+        "VERSION": {
+          "CONTEXTO": {
+            "id_termino": "0",
+            "id_tesauro": "1037",
+            "tipo": "lexico",
+            "valor": null
+          },
+          "LENGUA": {
+            "id_termino": "0",
+            "id_tesauro": "1041",
+            "tipo": "lexico",
+            "valor": null
+          }
+        },
+        "DURACION": {
+          "tipo": "tiempo",
+          "valor": "02:31:41.680"
+        },
+        "DOCU5": {
+          "id_termino": "14750",
+          "id_tesauro": "2000",
+          "tipo": "lexico",
+          "valor": "AVID"
+        },
+        "FEDIG": {
+          "tipo": "fecha",
+          "valor": "2025-05-13Z"
+        },
+        "FEDES": {
+          "tipo": "fecha",
+          "valor": "0001-01-01Z"
+        },
+        "SITDIG": {
+          "id_termino": "1948",
+          "id_tesauro": "1036",
+          "tipo": "lexico",
+          "valor": "05 DIGITALIZADO"
+        },
+        "UBICACION": {
+          "id_termino": "0",
+          "id_tesauro": "1080",
+          "tipo": "lexico",
+          "valor": null
+        }
+      }
+    ]
+  },
+  "MRESP": [
+    {
+      "NOMRES": {
+        "id_termino": "100151809",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "MARTA CARAZO"
+      },
+      "FUNRES": {
+        "id_termino": "1444",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "PRESENTADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100151260",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "ALEJANDRA HERRANZ"
+      },
+      "FUNRES": {
+        "id_termino": "1444",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "PRESENTADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100152018",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "XABIER FORTES"
+      },
+      "FUNRES": {
+        "id_termino": "1444",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "PRESENTADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "2020220658",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "ALEJANDRA CLEMENTS"
+      },
+      "FUNRES": {
+        "id_termino": "1419",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "COLABORADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100151324",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "ANTON LOSADA"
+      },
+      "FUNRES": {
+        "id_termino": "1419",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "COLABORADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "2020219128",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "ELSA GARCIA DE BLAS"
+      },
+      "FUNRES": {
+        "id_termino": "1419",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "COLABORADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100086925",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "BEGOÑA ALEGRIA"
+      },
+      "FUNRES": {
+        "id_termino": "1424",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "CORRESPONSAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "2020240444",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "MARINA RIBEL"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "30121580",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "SAGRARIO RUIZ DE APODACA"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100151982",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "SILVIA GUERRA"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100087623",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "MARIANA GANCEDO"
+      },
+      "FUNRES": {
+        "id_termino": "1424",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "CORRESPONSAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "2020443171",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "JAVIER GUTIERREZ NOGALES"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100151982",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "SILVIA GUERRA"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "30007108",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "JOSE BELTRAN"
+      },
+      "FUNRES": {
+        "id_termino": "1419",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "COLABORADOR"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    },
+    {
+      "NOMRES": {
+        "id_termino": "100151450",
+        "id_tesauro": "3",
+        "tipo": "tesauro",
+        "valor": "ELENA RUBIO"
+      },
+      "FUNRES": {
+        "id_termino": "1435",
+        "id_tesauro": "1043",
+        "tipo": "lexico",
+        "valor": "ENVIADO ESPECIAL"
+      },
+      "PAISRES": {
+        "id_termino": "0",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": null
+      }
+    }
+  ],
+  "INTER": {
+    "INT": {
+      "id_termino": "0",
+      "id_tesauro": "3",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "FUNINT": {
+      "id_termino": "0",
+      "id_tesauro": "1044",
+      "tipo": "lexico",
+      "valor": null
+    }
+  },
+  "FORMAS": {
+    "TPROG": {
+      "id_termino": "0",
+      "id_tesauro": "1046",
+      "tipo": "lexico",
+      "valor": null
+    },
+    "FORMA": [
+      {
+        "id_termino": "100088369",
+        "id_tesauro": "199",
+        "tipo": "tesauro",
+        "valor": "PROGRAMA ESPECIAL"
+      },
+      {
+        "id_termino": "100088367",
+        "id_tesauro": "199",
+        "tipo": "tesauro",
+        "valor": "HECHO RELEVANTE"
+      },
+      {
+        "id_termino": "100082103",
+        "id_tesauro": "199",
+        "tipo": "tesauro",
+        "valor": "DEBATE"
+      },
+      {
+        "id_termino": "100082108",
+        "id_tesauro": "199",
+        "tipo": "tesauro",
+        "valor": "ENTREVISTA"
+      }
+    ]
+  },
+  "MATERIAS": {
+    "CATEG": {
+      "id_termino": "11601",
+      "id_tesauro": "1051",
+      "tipo": "lexico",
+      "valor": "INTERNACIONAL"
+    },
+    "TEMAS": [
+      {
+        "id_termino": "40001684",
+        "id_tesauro": "4",
+        "tipo": "tesauro",
+        "valor": "LIDERAZGO RELIGIOSO"
+      },
+      {
+        "id_termino": "40000401",
+        "id_tesauro": "4",
+        "tipo": "tesauro",
+        "valor": "CATOLICISMO"
+      }
+    ]
+  },
+  "LUGARES": {
+    "LUGAR": {
+      "id_termino": "0",
+      "id_tesauro": "5",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "AMB": {
+      "AMGEO": {
+        "id_termino": "50005655",
+        "id_tesauro": "5",
+        "tipo": "tesauro",
+        "valor": "VATICANO"
+      }
+    }
+  },
+  "FECHAS": {
+    "FECHA": {
+      "tipo": "fecha",
+      "valor": "2025-05-08Z"
+    },
+    "PERIODO": {
+      "id_termino": "0",
+      "id_tesauro": "200",
+      "tipo": "tesauro",
+      "valor": null
+    }
+  },
+  "PERSONAS": {
+    "PER": [
+      {
+        "PERS": {
+          "id_termino": "30031721",
+          "id_tesauro": "3",
+          "tipo": "tesauro",
+          "valor": "IGLESIA CATOLICA"
+        }
+      },
+      {
+        "PERS": {
+          "id_termino": "2020508102",
+          "id_tesauro": "3",
+          "tipo": "tesauro",
+          "valor": "LEON XIV PAPA"
+        }
+      }
+    ]
+  },
+  "PLANOS": {
+    "PPER": {
+      "id_termino": "100410881",
+      "id_tesauro": "3",
+      "tipo": "tesauro",
+      "valor": "JUAN JOSE TAMAYO (TEOLOGO)"
+    },
+    "PLUG": {
+      "id_termino": "0",
+      "id_tesauro": "5",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "PTEM": {
+      "id_termino": "0",
+      "id_tesauro": "4",
+      "tipo": "tesauro",
+      "valor": null
+    },
+    "TPLANO": {
+      "id_termino": "0",
+      "id_tesauro": "1056",
+      "tipo": "lexico",
+      "valor": null
+    }
+  },
+  "CONTROL": {
+    "REF": "I01847655",
+    "CENTRO": {
+      "id_termino": "574",
+      "id_tesauro": "1061",
+      "tipo": "lexico",
+      "valor": "TVE INFORMATIVOS"
+    },
+    "CONTENIDO_DIGITAL": {
+      "tipo": "bool",
+      "valor": "true"
+    },
+    "DOCU0": {
+      "id_termino": "14833",
+      "id_tesauro": "2000",
+      "tipo": "lexico",
+      "valor": "DOC"
+    },
+    "FENT": {
+      "tipo": "fecha",
+      "valor": "2025-05-13Z"
+    },
+    "DOCU1": {
+      "id_termino": "16312",
+      "id_tesauro": "2000",
+      "tipo": "lexico",
+      "valor": "I01036"
+    },
+    "FEGES": {
+      "tipo": "fecha",
+      "valor": "2025-05-13Z"
+    },
+    "DOCU2": {
+      "id_termino": "16318",
+      "id_tesauro": "2000",
+      "tipo": "lexico",
+      "valor": "I08734"
+    },
+    "FANA": {
+      "tipo": "fecha",
+      "valor": "2025-05-16Z"
+    },
+    "DOCU3": {
+      "id_termino": "0",
+      "id_tesauro": "2000",
+      "tipo": "lexico",
+      "valor": null
+    },
+    "FESUP": {
+      "tipo": "fecha",
+      "valor": "0001-01-01Z"
+    },
+    "SITDOC": {
+      "id_termino": "16336",
+      "id_tesauro": "1066",
+      "tipo": "lexico",
+      "valor": "FPR"
+    },
+    "NIVA": {
+      "id_termino": "1922",
+      "id_tesauro": "1071",
+      "tipo": "lexico",
+      "valor": "VISIONADO"
+    },
+    "USUARIO_MODIFICACION": "I08734",
+    "FECHA_MODIFICACION": {
+      "tipo": "fecha",
+      "valor": "2025-05-16Z"
+    }
+  }
+}

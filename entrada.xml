@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gesdoc:FICHA xsi:schemaLocation="http://www.rtve.int/gesdoc Modelo.xsd " xmlns:gesdoc="http://www.rtve.int/gesdoc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<gesdoc:FONDOS>VIDEO</gesdoc:FONDOS>
+	<gesdoc:BASE>INFORMATIVOS</gesdoc:BASE>
+	<gesdoc:BORIGEN>INTERPLAY</gesdoc:BORIGEN>
+	<gesdoc:SAP/>
+	<gesdoc:RESERVADO tipo="bool">false</gesdoc:RESERVADO>
+	<gesdoc:TOPSECRET tipo="bool">false</gesdoc:TOPSECRET>
+	<gesdoc:TITULOS>
+		<gesdoc:TITULO>ESPECIAL INFORMATIVO HABEMUS PAPAM: LEON XIV CR 20250508</gesdoc:TITULO>
+		<gesdoc:TITPAR/>
+		<gesdoc:TITPROV/>
+		<gesdoc:SUMARIO>ESPECIAL ELECCION PAPA LEON XIV (22:00H) PRESENTADO DESDE ROMA POR MARTA CARAZO Y ALEJANDRA HERRANZ Y DESDE MADRID XABIER FORTES,  MESA DE ANALISIS CON EXPERTOS Y REACCIONES EN DIRECTO.</gesdoc:SUMARIO>
+	</gesdoc:TITULOS>
+	<gesdoc:CONTENIDOS>
+		<gesdoc:CONT>Especial informativo con motivo de la segunda jornada del cónclave, en la que ha sido elegido el nuevo papa, el cardenal estadounidense Prevost, que toma el nombre de Papa León XIV.</gesdoc:CONT>
+	</gesdoc:CONTENIDOS>
+	<gesdoc:SERIE>
+		<gesdoc:CGSERIE tipo="bool">false</gesdoc:CGSERIE>
+		<gesdoc:SERPRO id_termino="100088119" id_tesauro="198" tipo="tesauro">ESPECIAL INFORMATIVO</gesdoc:SERPRO>
+		<gesdoc:SERPAR id_termino="0" id_tesauro="198" tipo="tesauro"/>
+		<gesdoc:SERPROV id_termino="0" id_tesauro="198" tipo="tesauro"/>
+		<gesdoc:NPROG/>
+		<gesdoc:ETAPA id_termino="0" id_tesauro="1001" tipo="lexico"/>
+		<gesdoc:TOTCAP/>
+		<gesdoc:ORDEMI tipo="bool">false</gesdoc:ORDEMI>
+	</gesdoc:SERIE>
+	<gesdoc:INFORMACION_CONTRACTUAL>
+		<gesdoc:CONTRATO/>
+		<gesdoc:DERECHOS/>
+	</gesdoc:INFORMACION_CONTRACTUAL>
+	<gesdoc:OBSERVACIONES>
+		<gesdoc:NOTAS>EMISION SIMULTANEA EN LA 2 Y EL CANAL 24H (22:00 A 24:31H). REDIFUSION EN LA 1 EN LA FRANJA DE MADRUGADA (25:54 A 26:29H)</gesdoc:NOTAS>
+		<gesdoc:NOTASINT>- Deducido CEMI</gesdoc:NOTASINT>
+	</gesdoc:OBSERVACIONES>
+	<gesdoc:PRODUCCION>
+		<gesdoc:TPROD id_termino="1966" id_tesauro="1002" tipo="lexico">PRODUCCION PROPIA</gesdoc:TPROD>
+		<gesdoc:DATPROD>
+			<gesdoc:LUPROD id_termino="50001758" id_tesauro="5" tipo="tesauro">ESPAÑA</gesdoc:LUPROD>
+			<gesdoc:PROD id_termino="30066705" id_tesauro="3" tipo="tesauro">TVE</gesdoc:PROD>
+			<gesdoc:FUPROD id_termino="1475" id_tesauro="1011" tipo="lexico">PRODUCTORA</gesdoc:FUPROD>
+		</gesdoc:DATPROD>
+		<gesdoc:FEPROD tipo="fecha">2025-05-08Z</gesdoc:FEPROD>
+		<gesdoc:ENVIO/>
+		<gesdoc:ORIGEN id_termino="1933" id_tesauro="1003" tipo="lexico">CONCEBIDO PARA TELEVISION</gesdoc:ORIGEN>
+		<gesdoc:AUDIEN id_termino="348" id_tesauro="1004" tipo="lexico">AUDIENCIA GENERAL</gesdoc:AUDIEN>
+		<gesdoc:CPROD>P2559307411</gesdoc:CPROD>
+		<gesdoc:ISAN/>
+	</gesdoc:PRODUCCION>
+	<gesdoc:EMISION>
+		<gesdoc:CADENA id_termino="441" id_tesauro="1016" tipo="lexico">SEGUNDA CADENA</gesdoc:CADENA>
+		<gesdoc:AMBITO id_termino="333" id_tesauro="1017" tipo="lexico">ESTATAL</gesdoc:AMBITO>
+		<gesdoc:PERI id_termino="0" id_tesauro="1018" tipo="lexico"/>
+		<gesdoc:DIA id_termino="10062" id_tesauro="1090" tipo="lexico">JUEVES</gesdoc:DIA>
+		<gesdoc:HORA tipo="hora">00:00:00.000</gesdoc:HORA>
+		<gesdoc:HORAINI tipo="hora">01:43:33.000</gesdoc:HORAINI>
+		<gesdoc:HORAFIN tipo="hora">04:12:51.000</gesdoc:HORAFIN>
+		<gesdoc:TIPOEMI id_termino="0" id_tesauro="1019" tipo="lexico"/>
+		<gesdoc:INICIO tipo="fecha">0001-01-01Z</gesdoc:INICIO>
+		<gesdoc:FINAL tipo="fecha">0001-01-01Z</gesdoc:FINAL>
+		<gesdoc:FEMI tipo="fecha">2025-05-08Z</gesdoc:FEMI>
+		<gesdoc:CEMI>P599PDS00214411</gesdoc:CEMI>
+	</gesdoc:EMISION>
+	<gesdoc:DESCRIPCION_FISICA>
+		<gesdoc:DURTOT tipo="tiempo">00:00:00.000</gesdoc:DURTOT>
+		<gesdoc:UNIDADES/>
+		<gesdoc:DATDESFIS>
+			<gesdoc:MEDIA id_termino="1915" id_tesauro="1021" tipo="lexico">VIDEO</gesdoc:MEDIA>
+			<gesdoc:SIG/>
+			<gesdoc:CLIPID>INF_20250513_0131</gesdoc:CLIPID>
+			<gesdoc:IDASSET>PRD.200001125254</gesdoc:IDASSET>
+			<gesdoc:ID_RTVE>INF_20250513_0131</gesdoc:ID_RTVE>
+			<gesdoc:TC_IN tipo="tiempo">00:00:00.000</gesdoc:TC_IN>
+			<gesdoc:TC_OUT tipo="tiempo">02:31:41.640</gesdoc:TC_OUT>
+			<gesdoc:TC tipo="bool">false</gesdoc:TC>
+			<gesdoc:PIN/>
+			<gesdoc:CINTA/>
+			<gesdoc:FORMATO id_termino="817" id_tesauro="1022" tipo="lexico">MXF</gesdoc:FORMATO>
+			<gesdoc:MATERIAL id_termino="1871" id_tesauro="1023" tipo="lexico">EMISION CR</gesdoc:MATERIAL>
+			<gesdoc:NORMA id_termino="1924" id_tesauro="1024" tipo="lexico">HDTV</gesdoc:NORMA>
+			<gesdoc:CVIDEO id_termino="10577" id_tesauro="1025" tipo="lexico">MPEG2 - 422P XDCAM HD</gesdoc:CVIDEO>
+			<gesdoc:RVIDEO>50 Mbps</gesdoc:RVIDEO>
+			<gesdoc:ASPECTO id_termino="15218" id_tesauro="1026" tipo="lexico">16/9</gesdoc:ASPECTO>
+			<gesdoc:COLOR id_termino="600" id_tesauro="1027" tipo="lexico">COLOR</gesdoc:COLOR>
+			<gesdoc:AUDIOOK tipo="bool">false</gesdoc:AUDIOOK>
+			<gesdoc:GAUDIO id_termino="0" id_tesauro="1029" tipo="lexico"/>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="443" id_tesauro="1031" tipo="lexico">ESTEREO</gesdoc:FAUDIO>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="404" id_tesauro="1028" tipo="lexico">MEZCLAS</gesdoc:AUDIO>
+					<gesdoc:CAUDIO id_termino="570" id_tesauro="1030" tipo="lexico">PCM</gesdoc:CAUDIO>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="404" id_tesauro="1028" tipo="lexico">MEZCLAS</gesdoc:AUDIO>
+					<gesdoc:CAUDIO id_termino="570" id_tesauro="1030" tipo="lexico">PCM</gesdoc:CAUDIO>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:RAUDIO>24</gesdoc:RAUDIO>
+			<gesdoc:FRECU>48000</gesdoc:FRECU>
+			<gesdoc:VERSION>
+				<gesdoc:CONTEXTO id_termino="611" id_tesauro="1037" tipo="lexico">DIALOGOS ORIGINALES</gesdoc:CONTEXTO>
+				<gesdoc:LENGUA id_termino="1800" id_tesauro="1041" tipo="lexico">ESPAÑOL</gesdoc:LENGUA>
+			</gesdoc:VERSION>
+			<gesdoc:MEDIDAS/>
+			<gesdoc:PESO>677592302817902592</gesdoc:PESO>
+			<gesdoc:DURACION tipo="tiempo">02:31:41.680</gesdoc:DURACION>
+			<gesdoc:DOCU5 id_termino="14750" id_tesauro="2000" tipo="lexico">AVID</gesdoc:DOCU5>
+			<gesdoc:FEDIG tipo="fecha">2025-05-13Z</gesdoc:FEDIG>
+			<gesdoc:FEDES tipo="fecha">0001-01-01Z</gesdoc:FEDES>
+			<gesdoc:SITDIG id_termino="0" id_tesauro="1036" tipo="lexico"/>
+			<gesdoc:ESTADO/>
+			<gesdoc:TEXASO/>
+			<gesdoc:UBICACION id_termino="10569" id_tesauro="1080" tipo="lexico">MADRID INFORMATIVOS</gesdoc:UBICACION>
+		</gesdoc:DATDESFIS>
+		<gesdoc:DATDESFIS>
+			<gesdoc:MEDIA id_termino="1915" id_tesauro="1021" tipo="lexico">VIDEO</gesdoc:MEDIA>
+			<gesdoc:SIG/>
+			<gesdoc:CLIPID>INF_20250513_0131</gesdoc:CLIPID>
+			<gesdoc:IDASSET>PRD.200001125254</gesdoc:IDASSET>
+			<gesdoc:ID_RTVE>INF_20250513_0131</gesdoc:ID_RTVE>
+			<gesdoc:TC_IN tipo="tiempo">00:00:00.000</gesdoc:TC_IN>
+			<gesdoc:TC_OUT tipo="tiempo">02:31:41.640</gesdoc:TC_OUT>
+			<gesdoc:TC tipo="bool">false</gesdoc:TC>
+			<gesdoc:PIN/>
+			<gesdoc:CINTA/>
+			<gesdoc:FORMATO id_termino="10980" id_tesauro="1022" tipo="lexico">QT</gesdoc:FORMATO>
+			<gesdoc:MATERIAL id_termino="1871" id_tesauro="1023" tipo="lexico">EMISION CR</gesdoc:MATERIAL>
+			<gesdoc:NORMA id_termino="1926" id_tesauro="1024" tipo="lexico">PAL</gesdoc:NORMA>
+			<gesdoc:CVIDEO id_termino="10578" id_tesauro="1025" tipo="lexico">H264</gesdoc:CVIDEO>
+			<gesdoc:RVIDEO>1.5Mbps</gesdoc:RVIDEO>
+			<gesdoc:ASPECTO id_termino="15218" id_tesauro="1026" tipo="lexico">16/9</gesdoc:ASPECTO>
+			<gesdoc:COLOR id_termino="600" id_tesauro="1027" tipo="lexico">COLOR</gesdoc:COLOR>
+			<gesdoc:AUDIOOK tipo="bool">false</gesdoc:AUDIOOK>
+			<gesdoc:GAUDIO id_termino="0" id_tesauro="1029" tipo="lexico"/>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="443" id_tesauro="1031" tipo="lexico">ESTEREO</gesdoc:FAUDIO>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="404" id_tesauro="1028" tipo="lexico">MEZCLAS</gesdoc:AUDIO>
+					<gesdoc:CAUDIO id_termino="570" id_tesauro="1030" tipo="lexico">PCM</gesdoc:CAUDIO>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="404" id_tesauro="1028" tipo="lexico">MEZCLAS</gesdoc:AUDIO>
+					<gesdoc:CAUDIO id_termino="570" id_tesauro="1030" tipo="lexico">PCM</gesdoc:CAUDIO>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:RAUDIO>16</gesdoc:RAUDIO>
+			<gesdoc:FRECU>48000</gesdoc:FRECU>
+			<gesdoc:VERSION>
+				<gesdoc:CONTEXTO id_termino="611" id_tesauro="1037" tipo="lexico">DIALOGOS ORIGINALES</gesdoc:CONTEXTO>
+				<gesdoc:LENGUA id_termino="1800" id_tesauro="1041" tipo="lexico">ESPAÑOL</gesdoc:LENGUA>
+			</gesdoc:VERSION>
+			<gesdoc:MEDIDAS/>
+			<gesdoc:PESO>1638400449</gesdoc:PESO>
+			<gesdoc:DURACION tipo="tiempo">02:31:41.680</gesdoc:DURACION>
+			<gesdoc:DOCU5 id_termino="0" id_tesauro="2000" tipo="lexico"/>
+			<gesdoc:FEDIG tipo="fecha">2025-05-13Z</gesdoc:FEDIG>
+			<gesdoc:FEDES tipo="fecha">0001-01-01Z</gesdoc:FEDES>
+			<gesdoc:SITDIG id_termino="0" id_tesauro="1036" tipo="lexico"/>
+			<gesdoc:ESTADO/>
+			<gesdoc:TEXASO/>
+			<gesdoc:UBICACION id_termino="0" id_tesauro="1080" tipo="lexico"/>
+		</gesdoc:DATDESFIS>
+		<gesdoc:DATDESFIS>
+			<gesdoc:MEDIA id_termino="1915" id_tesauro="1021" tipo="lexico">VIDEO</gesdoc:MEDIA>
+			<gesdoc:SIG/>
+			<gesdoc:CLIPID>INF_20250513_0131</gesdoc:CLIPID>
+			<gesdoc:IDASSET>PRD.200001125254</gesdoc:IDASSET>
+			<gesdoc:ID_RTVE>INF_20250513_0131</gesdoc:ID_RTVE>
+			<gesdoc:TC_IN tipo="tiempo">00:00:00.000</gesdoc:TC_IN>
+			<gesdoc:TC_OUT tipo="tiempo">00:00:00.000</gesdoc:TC_OUT>
+			<gesdoc:TC tipo="bool">false</gesdoc:TC>
+			<gesdoc:PIN/>
+			<gesdoc:CINTA/>
+			<gesdoc:FORMATO id_termino="0" id_tesauro="1022" tipo="lexico"/>
+			<gesdoc:MATERIAL id_termino="1871" id_tesauro="1023" tipo="lexico">EMISION CR</gesdoc:MATERIAL>
+			<gesdoc:NORMA id_termino="1924" id_tesauro="1024" tipo="lexico">HDTV</gesdoc:NORMA>
+			<gesdoc:CVIDEO id_termino="0" id_tesauro="1025" tipo="lexico"/>
+			<gesdoc:RVIDEO/>
+			<gesdoc:ASPECTO id_termino="15218" id_tesauro="1026" tipo="lexico">16/9</gesdoc:ASPECTO>
+			<gesdoc:COLOR id_termino="600" id_tesauro="1027" tipo="lexico">COLOR</gesdoc:COLOR>
+			<gesdoc:AUDIOOK tipo="bool">false</gesdoc:AUDIOOK>
+			<gesdoc:GAUDIO id_termino="0" id_tesauro="1029" tipo="lexico"/>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:AES>
+				<gesdoc:FAUDIO id_termino="0" id_tesauro="1031" tipo="lexico"/>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+				<gesdoc:CANALES>
+					<gesdoc:IDIOMA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+					<gesdoc:AUDIO id_termino="0" id_tesauro="1028" tipo="lexico"/>
+					<gesdoc:CAUDIO id_termino="0" id_tesauro="1030" tipo="lexico"/>
+				</gesdoc:CANALES>
+			</gesdoc:AES>
+			<gesdoc:RAUDIO/>
+			<gesdoc:FRECU/>
+			<gesdoc:VERSION>
+				<gesdoc:CONTEXTO id_termino="0" id_tesauro="1037" tipo="lexico"/>
+				<gesdoc:LENGUA id_termino="0" id_tesauro="1041" tipo="lexico"/>
+			</gesdoc:VERSION>
+			<gesdoc:MEDIDAS/>
+			<gesdoc:PESO/>
+			<gesdoc:DURACION tipo="tiempo">02:31:41.680</gesdoc:DURACION>
+			<gesdoc:DOCU5 id_termino="14750" id_tesauro="2000" tipo="lexico">AVID</gesdoc:DOCU5>
+			<gesdoc:FEDIG tipo="fecha">2025-05-13Z</gesdoc:FEDIG>
+			<gesdoc:FEDES tipo="fecha">0001-01-01Z</gesdoc:FEDES>
+			<gesdoc:SITDIG id_termino="1948" id_tesauro="1036" tipo="lexico">05 DIGITALIZADO</gesdoc:SITDIG>
+			<gesdoc:ESTADO/>
+			<gesdoc:TEXASO/>
+			<gesdoc:UBICACION id_termino="0" id_tesauro="1080" tipo="lexico"/>
+		</gesdoc:DATDESFIS>
+	</gesdoc:DESCRIPCION_FISICA>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151809" id_tesauro="3" tipo="tesauro">MARTA CARAZO</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1444" id_tesauro="1043" tipo="lexico">PRESENTADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151260" id_tesauro="3" tipo="tesauro">ALEJANDRA HERRANZ</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1444" id_tesauro="1043" tipo="lexico">PRESENTADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100152018" id_tesauro="3" tipo="tesauro">XABIER FORTES</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1444" id_tesauro="1043" tipo="lexico">PRESENTADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="2020220658" id_tesauro="3" tipo="tesauro">ALEJANDRA CLEMENTS</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1419" id_tesauro="1043" tipo="lexico">COLABORADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151324" id_tesauro="3" tipo="tesauro">ANTON LOSADA</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1419" id_tesauro="1043" tipo="lexico">COLABORADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="2020219128" id_tesauro="3" tipo="tesauro">ELSA GARCIA DE BLAS</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1419" id_tesauro="1043" tipo="lexico">COLABORADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100086925" id_tesauro="3" tipo="tesauro">BEGOÑA ALEGRIA</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1424" id_tesauro="1043" tipo="lexico">CORRESPONSAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="2020240444" id_tesauro="3" tipo="tesauro">MARINA RIBEL</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="30121580" id_tesauro="3" tipo="tesauro">SAGRARIO RUIZ DE APODACA</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151982" id_tesauro="3" tipo="tesauro">SILVIA GUERRA</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100087623" id_tesauro="3" tipo="tesauro">MARIANA GANCEDO</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1424" id_tesauro="1043" tipo="lexico">CORRESPONSAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="2020443171" id_tesauro="3" tipo="tesauro">JAVIER GUTIERREZ NOGALES</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151982" id_tesauro="3" tipo="tesauro">SILVIA GUERRA</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="30007108" id_tesauro="3" tipo="tesauro">JOSE BELTRAN</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1419" id_tesauro="1043" tipo="lexico">COLABORADOR</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:MRESP>
+		<gesdoc:NOMRES id_termino="100151450" id_tesauro="3" tipo="tesauro">ELENA RUBIO</gesdoc:NOMRES>
+		<gesdoc:FUNRES id_termino="1435" id_tesauro="1043" tipo="lexico">ENVIADO ESPECIAL</gesdoc:FUNRES>
+		<gesdoc:PAISRES id_termino="0" id_tesauro="5" tipo="tesauro"/>
+	</gesdoc:MRESP>
+	<gesdoc:INTER>
+		<gesdoc:INT id_termino="0" id_tesauro="3" tipo="tesauro"/>
+		<gesdoc:FUNINT id_termino="0" id_tesauro="1044" tipo="lexico"/>
+	</gesdoc:INTER>
+	<gesdoc:FORMAS>
+		<gesdoc:TPROG id_termino="0" id_tesauro="1046" tipo="lexico"/>
+		<gesdoc:FORMA id_termino="100088369" id_tesauro="199" tipo="tesauro">PROGRAMA ESPECIAL</gesdoc:FORMA>
+		<gesdoc:FORMA id_termino="100088367" id_tesauro="199" tipo="tesauro">HECHO RELEVANTE</gesdoc:FORMA>
+		<gesdoc:FORMA id_termino="100082103" id_tesauro="199" tipo="tesauro">DEBATE</gesdoc:FORMA>
+		<gesdoc:FORMA id_termino="100082108" id_tesauro="199" tipo="tesauro">ENTREVISTA</gesdoc:FORMA>
+	</gesdoc:FORMAS>
+	<gesdoc:MATERIAS>
+		<gesdoc:CATEG id_termino="11601" id_tesauro="1051" tipo="lexico">INTERNACIONAL</gesdoc:CATEG>
+		<gesdoc:TEMAS id_termino="40001684" id_tesauro="4" tipo="tesauro">LIDERAZGO RELIGIOSO</gesdoc:TEMAS>
+		<gesdoc:TEMAS id_termino="40000401" id_tesauro="4" tipo="tesauro">CATOLICISMO</gesdoc:TEMAS>
+	</gesdoc:MATERIAS>
+	<gesdoc:LUGARES>
+		<gesdoc:LUGAR id_termino="0" id_tesauro="5" tipo="tesauro"/>
+		<gesdoc:AMB>
+			<gesdoc:AMGEO id_termino="50005655" id_tesauro="5" tipo="tesauro">VATICANO</gesdoc:AMGEO>
+		</gesdoc:AMB>
+	</gesdoc:LUGARES>
+	<gesdoc:FECHAS>
+		<gesdoc:FECHA tipo="fecha">2025-05-08Z</gesdoc:FECHA>
+		<gesdoc:PERIODO id_termino="0" id_tesauro="200" tipo="tesauro"/>
+	</gesdoc:FECHAS>
+	<gesdoc:PERSONAS>
+		<gesdoc:PER>
+			<gesdoc:PERS id_termino="30031721" id_tesauro="3" tipo="tesauro">IGLESIA CATOLICA</gesdoc:PERS>
+		</gesdoc:PER>
+		<gesdoc:PER>
+			<gesdoc:PERS id_termino="2020508102" id_tesauro="3" tipo="tesauro">LEON XIV PAPA</gesdoc:PERS>
+		</gesdoc:PER>
+	</gesdoc:PERSONAS>
+	<gesdoc:PLANOS>
+		<gesdoc:PPER id_termino="100410881" id_tesauro="3" tipo="tesauro">JUAN JOSE TAMAYO (TEOLOGO)</gesdoc:PPER>
+		<gesdoc:PLUG id_termino="0" id_tesauro="5" tipo="tesauro"/>
+		<gesdoc:PTEM id_termino="0" id_tesauro="4" tipo="tesauro"/>
+		<gesdoc:TPLANO id_termino="0" id_tesauro="1056" tipo="lexico"/>
+	</gesdoc:PLANOS>
+	<gesdoc:CONTROL>
+		<gesdoc:REF>I01847655</gesdoc:REF>
+		<gesdoc:SUBREF/>
+		<gesdoc:CENTRO id_termino="574" id_tesauro="1061" tipo="lexico">TVE INFORMATIVOS</gesdoc:CENTRO>
+		<gesdoc:CONTENIDO_DIGITAL tipo="bool">true</gesdoc:CONTENIDO_DIGITAL>
+		<gesdoc:DOCU0 id_termino="14833" id_tesauro="2000" tipo="lexico">DOC</gesdoc:DOCU0>
+		<gesdoc:FENT tipo="fecha">2025-05-13Z</gesdoc:FENT>
+		<gesdoc:DOCU1 id_termino="16312" id_tesauro="2000" tipo="lexico">I01036</gesdoc:DOCU1>
+		<gesdoc:FEGES tipo="fecha">2025-05-13Z</gesdoc:FEGES>
+		<gesdoc:DOCU2 id_termino="16318" id_tesauro="2000" tipo="lexico">I08734</gesdoc:DOCU2>
+		<gesdoc:FANA tipo="fecha">2025-05-16Z</gesdoc:FANA>
+		<gesdoc:DOCU3 id_termino="0" id_tesauro="2000" tipo="lexico"/>
+		<gesdoc:FESUP tipo="fecha">0001-01-01Z</gesdoc:FESUP>
+		<gesdoc:SITDOC id_termino="16336" id_tesauro="1066" tipo="lexico">FPR</gesdoc:SITDOC>
+		<gesdoc:NIVA id_termino="1922" id_tesauro="1071" tipo="lexico">VISIONADO</gesdoc:NIVA>
+		<gesdoc:USUARIO_MODIFICACION>I08734</gesdoc:USUARIO_MODIFICACION>
+		<gesdoc:FECHA_MODIFICACION tipo="fecha">2025-05-16Z</gesdoc:FECHA_MODIFICACION>
+	</gesdoc:CONTROL>
+</gesdoc:FICHA>
