@@ -1,62 +1,38 @@
-from pymongo import MongoClient
-from pymongo import UpdateOne
-from bson.objectid import ObjectId
+from pymongo import MongoClient, UpdateOne
 from tqdm import tqdm
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
+import math
 
 client = MongoClient("mongodb+srv://carlosalonso:BIOPB3nF8riaxlBa@cluster-demo.rcm35.mongodb.net/")
 db = client["rtve_modelado"]
 collection = db["fichas_documentales"]
 
-# Configuraciones
-batch_size = 5000
-max_threads = 8  # Ajusta según tu CPU y red
-query = {"BORIGEN": "INTERPLAY"}
-total = collection.count_documents(query)
+# Paso 1: Cargar todos los _id con BORIGEN == "INTERPLAY"
+print("Recuperando IDs...")
+ids = list(collection.find({"BORIGEN": "INTERPLAY"}, {"_id": 1}))
+id_list = [doc["_id"] for doc in ids]
+total = len(id_list)
+print(f"Documentos a actualizar: {total}")
 
-print(f"Total documentos a actualizar: {total}")
+# Paso 2: Dividir en lotes
+batch_size = 1000
+batches = [id_list[i:i + batch_size] for i in range(0, total, batch_size)]
 
-def fetch_ids(last_id=None):
-    filtro = query.copy()
-    if last_id:
-        filtro["_id"] = {"$gt": last_id}
-    return list(collection.find(filtro, {"_id": 1}).sort("_id", 1).limit(batch_size))
-
+# Paso 3: Función para actualizar un lote
 def update_batch(ids):
-    operations = [
-        UpdateOne(
-            {"_id": _id, "BORIGEN": "INTERPLAY"},
-            {"$set": {"BORIGEN": "ARCA"}}
-        ) for _id in ids
+    ops = [
+        UpdateOne({"_id": _id}, {"$set": {"BORIGEN": "ARCA"}})
+        for _id in ids
     ]
-    if operations:
-        result = collection.bulk_write(operations, ordered=False)
-        return result.modified_count
-    return 0
+    result = collection.bulk_write(ops, ordered=False)
+    return result.modified_count
 
-updated_total = 0
-last_id = None
+# Paso 4: Ejecutar en paralelo con barra de progreso
+with ThreadPoolExecutor(max_workers=8) as executor:
+    futures = [executor.submit(update_batch, batch) for batch in batches]
+    with tqdm(total=len(batches), desc="Actualizando BORIGEN") as pbar:
+        for future in futures:
+            future.result()
+            pbar.update(1)
 
-with tqdm(total=total, desc="Actualizando BORIGEN") as pbar:
-    while True:
-        batches = []
-        # Prepara lotes para múltiples threads
-        for _ in range(max_threads):
-            docs = fetch_ids(last_id)
-            if not docs:
-                break
-            ids = [doc["_id"] for doc in docs]
-            last_id = ids[-1]
-            batches.append(ids)
-
-        if not batches:
-            break
-
-        with ThreadPoolExecutor(max_threads) as executor:
-            futures = [executor.submit(update_batch, ids) for ids in batches]
-            for future in as_completed(futures):
-                updated = future.result()
-                pbar.update(updated)
-                updated_total += updated
-
-print(f"\nTotal documentos actualizados: {updated_total}")
+print("✅ Actualización completada.")
