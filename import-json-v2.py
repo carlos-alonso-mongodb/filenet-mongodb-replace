@@ -120,8 +120,8 @@ def generar_variaciones(base):
     return doc
 
 # Insercion
-batch_size = 1000
-num_docs = 2000
+batch_size = 10000
+num_docs = 20000000
 
 for i in range(0, num_docs, batch_size):
     batch = [generar_variaciones(base_doc) for _ in range(batch_size)]
