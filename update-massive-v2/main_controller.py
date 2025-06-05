@@ -13,12 +13,12 @@ NUM_WORKERS = 8
 batch_size = 5000
 
 def get_id_ranges():
-    # Obtener todos los _id con BORIGEN = INTERPLAY (solo extremos)
-    cursor = collection.find({"BORIGEN": "INTERPLAY"}, {"_id": 1}).sort("_id", 1)
+    # Obtener todos los _id con BORIGEN = ARCA-NEW (solo extremos)
+    cursor = collection.find({"BORIGEN": "ARCA-NEW"}, {"_id": 1}).sort("_id", 1)
     first = cursor[0]["_id"]
     last = list(cursor.sort("_id", -1).limit(1))[0]["_id"]
 
-    total = collection.count_documents({"BORIGEN": "INTERPLAY"})
+    total = collection.count_documents({"BORIGEN": "ARCA-NEW"})
     per_worker = total // NUM_WORKERS
 
     # Crear rangos de ObjectId por número de documentos aproximado
@@ -27,7 +27,7 @@ def get_id_ranges():
 
     for _ in range(NUM_WORKERS):
         docs = list(collection.find({
-            "BORIGEN": "INTERPLAY",
+            "BORIGEN": "ARCA-NEW",
             "_id": {"$gte": current_id}
         }, {"_id": 1}).sort("_id", 1).limit(per_worker))
 
