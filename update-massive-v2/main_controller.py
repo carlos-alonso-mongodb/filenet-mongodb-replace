@@ -1,35 +1,46 @@
+# main_controller.py
+
 import multiprocessing
 from bson.objectid import ObjectId
 from pymongo import MongoClient
-import math
 from datetime import datetime
+import subprocess
 
+# Parámetros de conexión
 client = MongoClient("mongodb+srv://carlosalonso:BIOPB3nF8riaxlBa@cluster-demo.rcm35.mongodb.net/")
 db = client["rtve_modelado"]
 collection = db["fichas_documentales"]
 
-# Configura
-NUM_WORKERS = 8
-batch_size = 5000
+NUM_WORKERS = 8  # Puedes aumentar si tu CPU lo permite
+CHUNK_SIZE = 250_000  # Documentos por rango
 
 def get_id_ranges():
-    # Obtener todos los _id con BORIGEN = ARCA-NEW (solo extremos)
-    cursor = collection.find({"BORIGEN": "ARCA-NEW"}, {"_id": 1}).sort("_id", 1)
-    first = cursor[0]["_id"]
-    last = list(cursor.sort("_id", -1).limit(1))[0]["_id"]
+    query = {"BORIGEN": "ARCA-NEW"}
 
-    total = collection.count_documents({"BORIGEN": "ARCA-NEW"})
-    per_worker = total // NUM_WORKERS
+    first_doc = collection.find(query, {"_id": 1}).sort("_id", 1).limit(1)
+    last_doc = collection.find(query, {"_id": 1}).sort("_id", -1).limit(1)
 
-    # Crear rangos de ObjectId por número de documentos aproximado
+    first = next(first_doc, None)
+    last = next(last_doc, None)
+
+    if not first or not last:
+        print("❌ No se encontraron documentos para actualizar.")
+        return []
+
+    first_id = first["_id"]
+    last_id = last["_id"]
+
+    total = collection.count_documents(query)
+    print(f"📊 Total documentos a procesar: {total}")
+
     id_ranges = []
-    current_id = first
+    current_id = first_id
 
-    for _ in range(NUM_WORKERS):
+    while True:
         docs = list(collection.find({
             "BORIGEN": "ARCA-NEW",
             "_id": {"$gte": current_id}
-        }, {"_id": 1}).sort("_id", 1).limit(per_worker))
+        }, {"_id": 1}).sort("_id", 1).limit(CHUNK_SIZE))
 
         if not docs:
             break
@@ -37,21 +48,24 @@ def get_id_ranges():
         start_id = docs[0]["_id"]
         end_id = docs[-1]["_id"]
         id_ranges.append((str(start_id), str(end_id)))
+
+        if end_id >= last_id:
+            break
+
         current_id = ObjectId(end_id)
 
     return id_ranges
 
 def run_worker(start_id, end_id):
-    import subprocess
     subprocess.run(["python3", "worker_updater.py", start_id, end_id])
 
 if __name__ == "__main__":
     start_time = datetime.now()
-    id_ranges = get_id_ranges()
-    print(f"Launching {len(id_ranges)} workers...")
+    ranges = get_id_ranges()
+
+    print(f"🚀 Lanzando {len(ranges)} workers...")
 
     with multiprocessing.Pool(processes=NUM_WORKERS) as pool:
-        pool.starmap(run_worker, id_ranges)
+        pool.starmap(run_worker, ranges)
 
-    duration = datetime.now() - start_time
-    print(f"✅ Actualización completa en {duration}")
+    print(f"✅ Actualización completada en {datetime.now() - start_time}")
