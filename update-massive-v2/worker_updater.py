@@ -14,7 +14,7 @@ batch_size = 5000
 
 def update_range(start_id, end_id):
     total = collection.count_documents({
-        "BORIGEN": "INTERPLAY",
+        "BORIGEN": "ARCA-NEW",
         "_id": {"$gte": start_id, "$lte": end_id}
     })
 
@@ -24,7 +24,7 @@ def update_range(start_id, end_id):
     with tqdm(total=total, desc=f"Worker {str(start_id)[-4:]}") as pbar:
         while True:
             docs = list(collection.find({
-                "BORIGEN": "INTERPLAY",
+                "BORIGEN": "ARCA-NEW",
                 "_id": {"$gte": last_id, "$lte": end_id}
             }, {"_id": 1}).sort("_id", 1).limit(batch_size))
 
