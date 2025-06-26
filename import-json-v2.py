@@ -9,7 +9,7 @@ import json
 fake = Faker('es_ES')
 
 # Conexion a MongoDB
-client = MongoClient("mongodb+srv://carlosalonso:BIOPB3nF8riaxlBa@cluster-demo.rcm35.mongodb.net/")
+client = MongoClient("")
 db = client["rtve_modelado"]
 collection = db["fichas_documentales"]
 
