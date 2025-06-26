@@ -7,7 +7,7 @@ from datetime import datetime
 import subprocess
 
 # Parámetros de conexión
-client = MongoClient("mongodb+srv://carlosalonso:BIOPB3nF8riaxlBa@cluster-demo.rcm35.mongodb.net/")
+client = MongoClient("")
 db = client["rtve_modelado"]
 collection = db["fichas_documentales"]
 
