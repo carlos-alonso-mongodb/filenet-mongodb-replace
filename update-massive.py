@@ -3,7 +3,7 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 from bson.objectid import ObjectId
 
-client = MongoClient("mongodb+srv://carlosalonso:BIOPB3nF8riaxlBa@cluster-demo.rcm35.mongodb.net/")
+client = MongoClient("")
 db = client["rtve_modelado"]
 collection = db["fichas_documentales"]
 
